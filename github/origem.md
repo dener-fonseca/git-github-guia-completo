@@ -10,6 +10,20 @@ O **GitHub** foi lançado oficialmente em **19 de outubro de 2008** por:
 
 O objetivo da plataforma era tornar o uso do Git mais simples, acessível e colaborativo para desenvolvedores do mundo inteiro.
 
+O projeto foi criado por programadores que acreditavam que o Git poderia se tornar muito mais intuitivo através de uma plataforma online moderna e colaborativa.
+
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/30013?v=4" width="120px" alt="Tom Preston-Werner">
+  <img src="https://avatars.githubusercontent.com/u/2?v=4" width="120px" alt="Chris Wanstrath">
+  <img src="https://avatars.githubusercontent.com/u/3?v=4" width="120px" alt="PJ Hyett">
+</p>
+
+<p align="center">
+  <strong>Tom Preston-Werner</strong> •
+  <strong>Chris Wanstrath</strong> •
+  <strong>PJ Hyett</strong>
+</p>
+
 ---
 
 ## 💡 O problema da época
@@ -31,6 +45,10 @@ Foi nesse cenário que surgiu o GitHub.
 ## 🚀 A grande ideia do GitHub
 
 O GitHub trouxe uma interface web moderna construída sobre o Git, adicionando recursos sociais e colaborativos que revolucionaram o desenvolvimento de software.
+
+<p align="center">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="180px" alt="GitHub Logo">
+</p>
 
 Com o GitHub, os desenvolvedores passaram a conseguir:
 
@@ -69,9 +87,12 @@ Hoje, milhões de desenvolvedores utilizam o GitHub diariamente para criar, comp
 
 ---
 
-## 🖼️ GitHub
+## 🧠 Curiosidades
 
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+- O GitHub começou como um projeto pequeno entre amigos desenvolvedores.
+- A plataforma rapidamente se tornou referência mundial em projetos open source.
+- Em 2018, a Microsoft adquiriu o GitHub por aproximadamente **7,5 bilhões de dólares**.
+- Atualmente, milhões de repositórios estão hospedados no GitHub.
 
 ---
 
