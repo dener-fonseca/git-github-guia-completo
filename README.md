@@ -1,14 +1,14 @@
 # 📚 Guia Completo de Git e GitHub
 
 Bem-vindo ao **Guia Prático de Git e GitHub**!  
-Este projeto foi desenvolvido como trabalho final da formação **GitHub Certification**, com o objetivo de apresentar, de forma **clara, organizada e didática**, os principais conceitos e ferramentas utilizados no controle de versão e colaboração em projetos de software.
+Este projeto foi desenvolvido como trabalho final da formação **GitHub Certification**, com o objetivo de apresentar, de forma clara, organizada e didática, os principais conceitos e ferramentas utilizados no controle de versão e colaboração em projetos de software.
 
 ---
 
 ## 🎯 O que você encontrará neste guia
 
-✅ Explicação sobre a origem e funcionamento do **Git**  
-✅ Introdução completa ao **GitHub** e seus principais recursos  
+✅ Explicação sobre a origem e funcionamento do Git  
+✅ Introdução completa ao GitHub e seus principais recursos  
 ✅ Comandos essenciais utilizados no dia a dia  
 ✅ Exemplos práticos utilizando o terminal  
 ✅ Estrutura organizada para facilitar os estudos  
@@ -68,19 +68,3 @@ Este material foi criado para servir como um guia de consulta rápida e também 
 - Terminal / CLI
 - Versionamento de Código
 - Fluxo de Trabalho Colaborativo
-
----
-
-## 🖼️ Banner do Projeto
-
-Você pode utilizar um banner personalizado dentro da pasta `assets/`:
-
-```md
-![Git e GitHub](./assets/banner.png)
-```
-
-Ou utilizar um banner online simples:
-
-```md
-![Git e GitHub](https://img.shields.io/badge/Git-GitHub-orange?style=for-the-badge&logo=github)
-```
