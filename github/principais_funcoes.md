@@ -1,6 +1,7 @@
 # 🚀 Principais Funções do GitHub
 
 O GitHub oferece muito mais do que hospedagem de código.  
+
 A plataforma reúne ferramentas completas para colaboração, gerenciamento de projetos, automação, documentação e integração entre equipes de desenvolvimento.
 
 Nesta seção, você conhecerá os principais recursos que tornam o GitHub uma das plataformas mais importantes do mundo da tecnologia.
