@@ -12,23 +12,32 @@ O objetivo da plataforma era tornar o uso do Git mais simples, acessível e cola
 
 O projeto foi criado por programadores que acreditavam que o Git poderia se tornar muito mais intuitivo através de uma plataforma online moderna e colaborativa.
 
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/30013?v=4" width="120px" alt="Tom Preston-Werner">
-  <img src="https://avatars.githubusercontent.com/u/2?v=4" width="120px" alt="Chris Wanstrath">
-  <img src="https://avatars.githubusercontent.com/u/3?v=4" width="120px" alt="PJ Hyett">
-</p>
-
-<p align="center">
-  <strong>Tom Preston-Werner</strong> •
-  <strong>Chris Wanstrath</strong> •
-  <strong>PJ Hyett</strong>
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/u/30013?v=4" width="120px" alt="Tom Preston-Werner"><br>
+      <strong>Tom Preston-Werner</strong>
+    </td>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/u/2?v=4" width="120px" alt="Chris Wanstrath"><br>
+      <strong>Chris Wanstrath</strong>
+    </td>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/u/3?v=4" width="120px" alt="PJ Hyett"><br>
+      <strong>PJ Hyett</strong>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 💡 O problema da época
 
 Antes do GitHub, o Git já era utilizado como sistema de controle de versão, porém seu uso era muito mais técnico e limitado ao ambiente local.
+
+<p align="center">
+  <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="140px" alt="Git Logo">
+</p>
 
 Faltava uma plataforma que permitisse:
 
@@ -47,7 +56,7 @@ Foi nesse cenário que surgiu o GitHub.
 O GitHub trouxe uma interface web moderna construída sobre o Git, adicionando recursos sociais e colaborativos que revolucionaram o desenvolvimento de software.
 
 <p align="center">
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="180px" alt="GitHub Logo">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="140px" alt="GitHub Logo">
 </p>
 
 Com o GitHub, os desenvolvedores passaram a conseguir:
