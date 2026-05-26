@@ -4,6 +4,7 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 Bem-vindo ao **Guia Prático de Git e GitHub**!  
+
 Este projeto foi desenvolvido como trabalho final da formação **GitHub Certification**, com o objetivo de apresentar, de forma **clara, organizada e didática**, os principais conceitos e ferramentas utilizados no controle de versão e colaboração em projetos de software.
 
 ---
