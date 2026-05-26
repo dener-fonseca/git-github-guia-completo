@@ -1,33 +1,86 @@
-# 📚 Guia Completo: Git e GitHub
+# 📚 Guia Completo de Git e GitHub
 
-Bem-vindo ao **Guia Prático de Git e GitHub**! Este projeto foi criado como trabalho final do curso de Git e GitHub, com o objetivo de explicar de forma **clara e didática** esses ferramentas essenciais para desenvolvedores.
+Bem-vindo ao **Guia Prático de Git e GitHub**!  
+Este projeto foi desenvolvido como trabalho final da formação **GitHub Certification**, com o objetivo de apresentar, de forma **clara, organizada e didática**, os principais conceitos e ferramentas utilizados no controle de versão e colaboração em projetos de software.
 
-## 🎯 O que você vai encontrar aqui
+---
 
-- **Git**: Origem, funcionamento e comandos essenciais
+## 🎯 O que você encontrará neste guia
 
-- **GitHub**: História, funcionalidades e como usar na prática
+✅ Explicação sobre a origem e funcionamento do **Git**  
+✅ Introdução completa ao **GitHub** e seus principais recursos  
+✅ Comandos essenciais utilizados no dia a dia  
+✅ Exemplos práticos utilizando o terminal  
+✅ Estrutura organizada para facilitar os estudos  
+✅ Conteúdo ideal para iniciantes e estudantes de desenvolvimento
 
-- **Estrutura organizada** em pastas temáticas
+---
 
-- **Exemplos reais** com prompts do terminal
-
-## 📁 Navegação
+## 📁 Estrutura do Projeto
 
 | Pasta | Conteúdo |
-|-------|----------|
-| [`git/`](./git/) | Tudo sobre o Git (origem, função, comandos) |
-| [`github/`](./github/) | Guia completo do GitHub |
+|--------|-----------|
+| [`git/`](./git/) | Conceitos fundamentais do Git, comandos e exemplos práticos |
+| [`github/`](./github/) | Guia completo sobre GitHub, repositórios, colaboração e fluxo de trabalho |
 
-## 🚀 Como usar este guia
+---
 
-1. Clone este repositório
-2. Navegue pelas pastas
-3. Execute os comandos no seu terminal
-4. Pratique criando seu próprio repositório!
+## 🚀 Como utilizar este guia
 
-**Autor**: Dener Fonseca
-**Curso**:Formação Github Certification
-**Data**: 15 de Abril de 2026
+1. Clone este repositório:
 
-![Git e GitHub](https://via.placeholder.com/800x200/4285f4/ffffff?text=Git+%26+GitHub)
+```bash
+git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd SEU-REPOSITORIO
+```
+
+3. Navegue pelas pastas e leia os conteúdos disponíveis
+
+4. Execute os comandos apresentados no terminal
+
+5. Pratique criando e versionando seus próprios projetos 🚀
+
+---
+
+## 💡 Objetivo do Projeto
+
+Este material foi criado para servir como um guia de consulta rápida e também como apoio para quem está começando no universo de versionamento de código e colaboração com GitHub.
+
+---
+
+## 👨‍💻 Autor
+
+**Dener Fonseca**  
+📚 Formação: GitHub Certification  
+📅 Data: 15 de Abril de 2026
+
+---
+
+## 🔗 Tecnologias abordadas
+
+- Git
+- GitHub
+- Terminal / CLI
+- Versionamento de Código
+- Fluxo de Trabalho Colaborativo
+
+---
+
+## 🖼️ Banner do Projeto
+
+Você pode utilizar um banner personalizado dentro da pasta `assets/`:
+
+```md
+![Git e GitHub](./assets/banner.png)
+```
+
+Ou utilizar um banner online simples:
+
+```md
+![Git e GitHub](https://img.shields.io/badge/Git-GitHub-orange?style=for-the-badge&logo=github)
+```
