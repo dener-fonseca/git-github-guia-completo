@@ -11,10 +11,15 @@ Este projeto foi desenvolvido como trabalho final da formação **GitHub Certifi
 ## 🎯 O que você encontrará neste guia
 
 ✅ Explicação sobre a origem e funcionamento do **Git**  
+
 ✅ Introdução completa ao **GitHub** e seus principais recursos  
+
 ✅ Comandos essenciais utilizados no dia a dia  
+
 ✅ Exemplos práticos utilizando o terminal  
+
 ✅ Estrutura organizada para facilitar os estudos  
+
 ✅ Conteúdo ideal para iniciantes e estudantes de desenvolvimento
 
 ---
