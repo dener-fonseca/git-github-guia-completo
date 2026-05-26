@@ -1,69 +1,153 @@
-# ⌨️ Comandos básicos do Git
+# ⌨️ Comandos Básicos do Git
 
-## 1. Configuração inicial
+Os comandos do Git permitem criar repositórios, registrar alterações, acompanhar versões e organizar o desenvolvimento de projetos de forma segura e eficiente.
 
-Antes de começar a usar o Git, configure seu nome e e‑mail (isso aparecerá em todos os commits):
+Nesta seção, você conhecerá os principais comandos utilizados no dia a dia de qualquer desenvolvedor.
 
+---
+
+# ⚙️ 1. Configuração inicial
+
+Antes de começar a utilizar o Git, é recomendado configurar seu nome e e-mail. Essas informações serão associadas aos commits realizados no projeto.
+
+```bash
 git config --global user.name "Seu Nome"
 git config --global user.email "seu@email.com"
+```
 
-Essa configuração basta fazer uma vez por máquina e vale para todos os repositórios.
+## 📌 Explicação
 
-## 2. Iniciar um repositório
+| Comando | Função |
+|----------|---------|
+| `git config --global user.name` | Define o nome do usuário |
+| `git config --global user.email` | Define o e-mail do usuário |
 
-Para transformar uma pasta em repositório Git:
+> Essa configuração normalmente é feita apenas uma vez por computador.
 
+---
+
+# 📁 2. Criando um repositório Git
+
+Para transformar uma pasta comum em um repositório Git, utilize os comandos abaixo:
+
+```bash
 git init
 git add .
 git commit -m "Primeiro commit"
+```
 
-- git init → cria o repositório local.
-- git add . → adiciona todos os arquivos ao staging area.
-- git commit -m "mensagem" → salva um snapshot com descrição.
+## 📌 Explicação dos comandos
 
-## 3. Comandos mais usados no dia a dia
+| Comando | Função |
+|----------|---------|
+| `git init` | Inicializa um repositório Git |
+| `git add .` | Adiciona os arquivos para o staging area |
+| `git commit -m "mensagem"` | Salva um snapshot do projeto |
 
-git status → mostra o estado dos arquivos.
-git diff → mostra as diferenças antes de commitar.
-git log --oneline → mostra o histórico de commits.
-git show → mostra o que foi alterado no último commit.
+---
 
-Esses comandos ajudam a acompanhar o que está acontecendo no repositório antes de salvar ou enviar mudanças.
+# 🔍 3. Comandos mais usados no dia a dia
 
-## 4. Trabalhar com branches (super importante!)
+Esses comandos ajudam a acompanhar o estado do projeto durante o desenvolvimento.
 
-O Git permite criar branches para trabalhar em funcionalidades separadas:
+```bash
+git status
+git diff
+git log --oneline
+git show
+```
 
-git branch nova-funcionalidade → cria um novo branch.
-git checkout nova-funcionalidade → muda para esse branch.
-git checkout -b nova-funcionalidade → cria e muda de branch em um único comando.
+## 📌 Explicação dos comandos
 
-Depois de terminar o trabalho nesse branch, você pode voltar ao branch principal e mesclar:
+| Comando | Função |
+|----------|---------|
+| `git status` | Mostra o estado atual dos arquivos |
+| `git diff` | Exibe diferenças entre alterações |
+| `git log --oneline` | Mostra o histórico resumido de commits |
+| `git show` | Exibe detalhes do último commit |
 
+---
+
+# 🌿 4. Trabalhando com branches
+
+As branches permitem desenvolver funcionalidades separadamente sem alterar diretamente a versão principal do projeto.
+
+## 📌 Criando e trocando de branch
+
+```bash
+git branch nova-funcionalidade
+git checkout nova-funcionalidade
+```
+
+Ou utilizando um único comando:
+
+```bash
+git checkout -b nova-funcionalidade
+```
+
+## 📌 Mesclando branches
+
+Depois de concluir o trabalho no branch secundário, você pode unir as alterações ao branch principal:
+
+```bash
 git checkout main
 git merge nova-funcionalidade
+```
 
-## 5. Desfazer mudanças simples
+---
 
-git restore nome-do-arquivo → desfaz mudanças em um arquivo.
-git restore . → desfaz todas as alterações no diretório atual.
-git reset --soft HEAD~1 → desfaz o último commit mantendo as mudanças no staging area.
+# ↩️ 5. Desfazendo alterações
 
-## 6. Resumo dos comandos básicos
+O Git também oferece comandos para desfazer mudanças de maneira segura.
 
-- git config --global user.name → configura o nome do usuário.
-- git config --global user.email → configura o e‑mail.
-- git init → inicia um repositório Git.
-- git add . → adiciona arquivos ao staging.
-- git commit -m "mensagem" → salva um commit.
-- git status → mostra o estado dos arquivos.
-- git diff → mostra diferenças.
-- git log --oneline → mostra o histórico compacto.
-- git branch nome-branch → cria um branch.
-- git checkout nome-branch → muda de branch.
-- git checkout -b nome-branch → cria e muda de branch.
-- git merge nome-branch → mescla branch.
-- git restore arquivo → desfaz mudanças.
-- git reset --soft HEAD~1 → desfaz o último commit.
+```bash
+git restore nome-do-arquivo
+git restore .
+git reset --soft HEAD~1
+```
 
-Em resumo, esses comandos formam o "núcleo" do dia a dia com Git, permitindo iniciar repositórios, registrar mudanças, organizar o trabalho em branches e, quando necessário, desfazer alterações de forma segura.
+## 📌 Explicação dos comandos
+
+| Comando | Função |
+|----------|---------|
+| `git restore nome-do-arquivo` | Desfaz alterações em um arquivo |
+| `git restore .` | Desfaz alterações no diretório atual |
+| `git reset --soft HEAD~1` | Remove o último commit mantendo os arquivos |
+
+---
+
+# 📚 6. Resumo dos principais comandos
+
+| Comando | Descrição |
+|----------|------------|
+| `git config --global user.name` | Configura o nome do usuário |
+| `git config --global user.email` | Configura o e-mail do usuário |
+| `git init` | Inicializa um repositório |
+| `git add .` | Adiciona arquivos ao staging |
+| `git commit -m "mensagem"` | Cria um commit |
+| `git status` | Mostra o estado do projeto |
+| `git diff` | Exibe diferenças entre arquivos |
+| `git log --oneline` | Mostra histórico resumido |
+| `git branch nome-branch` | Cria um branch |
+| `git checkout nome-branch` | Troca de branch |
+| `git checkout -b nome-branch` | Cria e troca de branch |
+| `git merge nome-branch` | Mescla branches |
+| `git restore arquivo` | Desfaz alterações |
+| `git reset --soft HEAD~1` | Desfaz o último commit |
+
+---
+
+# ✅ Conclusão
+
+Esses comandos formam a base do uso diário do Git.
+
+Com eles, é possível:
+
+- iniciar repositórios;
+- acompanhar alterações;
+- salvar versões do projeto;
+- trabalhar com branches;
+- organizar o desenvolvimento;
+- recuperar versões anteriores de forma segura.
+
+Dominar esses comandos é o primeiro passo para utilizar o Git de maneira profissional 🚀
