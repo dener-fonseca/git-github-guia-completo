@@ -12,22 +12,9 @@ O objetivo da plataforma era tornar o uso do Git mais simples, acessível e cola
 
 O projeto foi criado por programadores que acreditavam que o Git poderia se tornar muito mais intuitivo através de uma plataforma online moderna e colaborativa.
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/30013?v=4" width="120px" alt="Tom Preston-Werner"><br>
-      <strong>Tom Preston-Werner</strong>
-    </td>
-    <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/2?v=4" width="120px" alt="Chris Wanstrath"><br>
-      <strong>Chris Wanstrath</strong>
-    </td>
-    <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/3?v=4" width="120px" alt="PJ Hyett"><br>
-      <strong>PJ Hyett</strong>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*QW8K5x8W4R_wJ2JwM2p9Pw.jpeg" width="700px" alt="Criadores do GitHub">
+</p>
 
 ---
 
