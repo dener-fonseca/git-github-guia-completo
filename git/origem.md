@@ -20,6 +20,12 @@ Diante desse cenário, Linus Torvalds decidiu desenvolver uma nova ferramenta de
 - Como solução, Linus Torvalds iniciou o desenvolvimento do Git.
 - A primeira versão funcional do Git foi criada em apenas **10 dias**.
 
+Durante o desenvolvimento, Linus Torvalds afirmou:
+
+> “Eu queria algo que fosse realmente rápido.”
+
+Essa preocupação com desempenho acabou se tornando uma das principais características do Git.
+
 ---
 
 ## 🎯 Objetivos do Git
@@ -54,8 +60,9 @@ Hoje, o Git é o sistema de controle de versão mais utilizado no mundo.
 
 ---
 
-## 🧠 Curiosidade
+## 🧠 Curiosidades sobre o Git
 
-> “Eu queria algo que fosse realmente rápido.”
->
-> — Linus Torvalds
+- O nome **Git** foi escolhido por Linus Torvalds de forma bem-humorada. Em inglês britânico, a palavra pode significar algo como “pessoa teimosa” ou “idiota”.
+- O Git foi criado inicialmente para atender às necessidades do desenvolvimento do kernel Linux.
+- Mesmo após tantos anos, o Git continua sendo a principal ferramenta de versionamento utilizada por empresas e desenvolvedores no mundo inteiro.
+- Plataformas gigantes como GitHub, GitLab e Bitbucket são baseadas no Git.
