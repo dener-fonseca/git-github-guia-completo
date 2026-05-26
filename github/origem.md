@@ -13,7 +13,7 @@ O objetivo da plataforma era tornar o uso do Git mais simples, acessível e cola
 O projeto foi criado por programadores que acreditavam que o Git poderia se tornar muito mais intuitivo através de uma plataforma online moderna e colaborativa.
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*QW8K5x8W4R_wJ2JwM2p9Pw.jpeg" width="700px" alt="Criadores do GitHub">
+  <img src="https://github.blog/wp-content/uploads/2013/01/5528f706-72f0-11e2-8b8f-1e74a6d4d7f1.jpg" width="700px" alt="Criadores do GitHub">
 </p>
 
 ---
